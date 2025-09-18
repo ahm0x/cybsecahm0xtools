@@ -33,7 +33,7 @@ try:
         for i in range(len(statues)):
             CustomStatus = {"custom_status": {"text": statues[i]}}
             try:
-                r = requests.patch("https://discord.com/api/v9/users/@me/settings", headers=headers, json=CustomStatus)
+                r = requests.patch("https://discord.com/api/v9/users/@me/settings", headers=headers, json=CustomStatus, timeout=5)
                 print(f"{BEFORE + current_time_hour() + AFTER} {ADD} Status: {white}Changed{red} Status Discord: {white}{statues[i]}{red}")
                 i += 1
                 time.sleep(5)

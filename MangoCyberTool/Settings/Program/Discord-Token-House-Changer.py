@@ -19,7 +19,7 @@ try:
 
     house = input(f"{BEFORE + current_time_hour() + AFTER} {INPUT} House -> {reset}").lstrip("0")
 
-    response = requests.get('https://discordapp.com/api/v6/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'})
+    response = requests.get('https://discordapp.com/api/v6/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'}, timeout=5)
     if response.status_code != 200:
         ErrorToken()
     else:
@@ -29,7 +29,7 @@ try:
         elif house in ["3", "03"]: payload = {'house_id': 3}
         else:
             ErrorChoice()
-        r = requests.post('https://discordapp.com/api/v6/hypesquad/online', headers=headers, json=payload, timeout=10)
+        r = requests.post('https://discordapp.com/api/v6/hypesquad/online', headers=headers, json=payload, timeout=5)
         if r.status_code == 204:
             print(f"{BEFORE + current_time_hour() + AFTER} {INFO} Hypesquad house changed.")
             Continue()

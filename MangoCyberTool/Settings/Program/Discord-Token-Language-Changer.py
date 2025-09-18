@@ -14,7 +14,7 @@ try:
     Slow(discord_banner)
     token = Choice1TokenDiscord()
     headers = {'Authorization': token, 'Content-Type': 'application/json'}
-    r = requests.get('https://discord.com/api/v8/users/@me', headers=headers)
+    r = requests.get('https://discord.com/api/v8/users/@me', headers=headers, timeout=5)
 
     if r.status_code == 200:
         try:
@@ -27,7 +27,7 @@ try:
                 time.sleep(0.6)
                 random_language = random.choice(['ja', 'zh-TW', 'ko', 'zh-CN', 'th', 'uk', 'ru', 'el', 'cs'])
                 setting = {'locale': random_language}
-                requests.patch("https://discord.com/api/v7/users/@me/settings", headers=headers, json=setting)
+                requests.patch("https://discord.com/api/v7/users/@me/settings", headers=headers, json=setting, timeout=5)
                 print(f"{BEFORE + current_time_hour() + AFTER} {ADD} Status: {white}Changed{red} Language: {white}{random_language}{red}")
             except:
                 print(f"{BEFORE + current_time_hour() + AFTER} {ERROR} Status:  {white}Error{red}  Language: {white}{random_language}{red}")

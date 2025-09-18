@@ -17,13 +17,13 @@ try:
         response = requests.post("https://users.roblox.com/v1/usernames/users", json={
             "usernames": [username_input],
             "excludeBannedUsers": "true"
-        })
+        }, timeout=5)
 
         data = response.json()
 
         user_id = data['data'][0]['id']
 
-        response = requests.get(f"https://users.roblox.com/v1/users/{user_id}")
+        response = requests.get(f"https://users.roblox.com/v1/users/{user_id}", timeout=5)
         api = response.json()
 
         userid = api.get('id', "None")

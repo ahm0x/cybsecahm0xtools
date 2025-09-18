@@ -17,7 +17,7 @@ try:
     except:
         invite_code = invite
 
-    response = requests.get(f"https://discord.com/api/v9/invites/{invite_code}")
+    response = requests.get(f"https://discord.com/api/v9/invites/{invite_code}", timeout=5)
 
     if response.status_code == 200:
         api = response.json()

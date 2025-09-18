@@ -19,8 +19,8 @@ cryptography
 screeninfo
 GPUtil
 pycryptodome
-discord.py
 discord
+discord.py
 Pillow
 browser-cookie3
 opencv-python

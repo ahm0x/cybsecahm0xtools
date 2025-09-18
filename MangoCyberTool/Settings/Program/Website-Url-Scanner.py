@@ -19,7 +19,7 @@ try:
 
         temp_all_links = []
 
-        response = requests.get(website_url)
+        response = requests.get(website_url, timeout=10)
         if response.status_code != 200:
             return
         
@@ -80,7 +80,7 @@ try:
                 if not new_links:
                     break
                 for link in new_links:
-                    if requests.get(link).status_code == 200:
+                    if requests.get(link, timeout=5).status_code == 200:
                         find_secret_urls(link, domain)
                         visited_links.add(link)
             except: pass

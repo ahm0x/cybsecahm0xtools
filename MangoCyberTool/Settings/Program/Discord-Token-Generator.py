@@ -45,7 +45,7 @@ try:
 
         try:
             try:
-                user = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token}).json()
+                user = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token}, timeout=5).json()
                 user['username']
                 if webhook in ['y']:
                     embed_content = {
@@ -58,9 +58,9 @@ try:
                     }
                     }
                     send_webhook(embed_content)
-                    print(f"{BEFORE_GREEN + current_time_hour() + AFTER_GREEN} {GEN_VALID} Status:  {white}Valid{color.GREEN}  Token: {white}{token}{color.GREEN}")
+                    print(f"{BEFORE_GREEN + current_time_hour() + AFTER_GREEN} {GEN_VALID} Status:  {white}Valid{green}  Token: {white}{token}{green}")
                 else:
-                    print(f"{BEFORE_GREEN + current_time_hour() + AFTER_GREEN} {GEN_VALID} Status:  {white}Valid{color.GREEN}  Token: {white}{token}{color.GREEN}")
+                    print(f"{BEFORE_GREEN + current_time_hour() + AFTER_GREEN} {GEN_VALID} Status:  {white}Valid{green}  Token: {white}{token}{green}")
             except:
                 print(f"{BEFORE + current_time_hour() + AFTER} {GEN_INVALID} Status: {white}Invalid{red} Token: {white}{token}{red}")
         except:

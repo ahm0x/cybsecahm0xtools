@@ -292,11 +292,11 @@ def ChoiceMultiChannelDiscord():
 def ChoiceMultiTokenDisord():
 
     def CheckToken(token_number, token):
-        response = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'})
+        response = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'}, timeout=5)
         
         if response.status_code == 200:
             user = requests.get(
-                'https://discord.com/api/v8/users/@me', headers={'Authorization': token}).json()
+                'https://discord.com/api/v8/users/@me', headers={'Authorization': token}, timeout=5).json()
             username_discord = user['username']
             token_sensur = token[:-25] + '.' * 3
             print(f" {BEFORE}{token_number}{AFTER} -> {red}Status: {white}Valid{red} | User: {white}{username_discord}{red} | Token: {white}{token_sensur}")
@@ -361,11 +361,11 @@ def ChoiceMultiTokenDisord():
 
 def Choice1TokenDiscord():
     def CheckToken(token_number, token):
-        response = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'})
+        response = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'}, timeout=5)
         
         if response.status_code == 200:
             user = requests.get(
-                'https://discord.com/api/v8/users/@me', headers={'Authorization': token}).json()
+                'https://discord.com/api/v8/users/@me', headers={'Authorization': token}, timeout=5).json()
             username_discord = user['username']
             token_sensur = token[:-25] + '.' * 3
             print(f" {BEFORE}{token_number}{AFTER} -> {red}Status: {white}Valid{red} | User: {white}{username_discord}{red} | Token: {white}{token_sensur}")
@@ -402,7 +402,7 @@ def Choice1TokenDiscord():
 
     selected_token = tokens.get(selected_token_number)
     if selected_token:
-        r = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': selected_token, 'Content-Type': 'application/json'})
+        r = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': selected_token, 'Content-Type': 'application/json'}, timeout=5)
         if r.status_code == 200:
             pass
         else:
@@ -758,9 +758,9 @@ logo_banner = r"""
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⡿⠝⣿⢾⣻⣭⣿⣿⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣷⣴⣲⣤⣰⣒⢢⣤⣀⡀⠀⠌⠙⠁⠢⠙⠭⢿⣯⡿⣶⣄⡙⠵⡀⢀⣀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⢿⣿⣷⣿⣾⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣷⣾⣿⣿⣾⣾⣷⣾⣧⣤⣴⣤⣭⣍⣁⠛⢛⣿⣷⠏⢹⠦⠡⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⡿⠛⠉⠙⣿⣿⣿⣷⣿⣾⣻⢷⣯⣷⢿⣻⢿⣻⢿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⠃⢀⣀⠻⠲⣧
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⡿⠟⠉⠀⢀⠀⣀⠶⣫⣽⣿⣾⣷⣿⣻⣽⣾⣿⣻⣿⣽⣿⣳⣯⣟⣯⣷⢿⣽⣾⣿⣻⣟⣿⣿⣻⣿⡿⣿⢿⡿⣿⢿⣿⣻⢿⣟⣿⣻⣽⣿⣿⣿⣟⣿⣻⠟⡿⠹⠉⠁⠻⣿⣿⣟⠻⣧⡜⠂⢠⡖⠃
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⠿⠋⠀⠀⢠⣑⠶⣾⣹⠿⣳⠧⡹⠓⢯⢷⠟⠼⢻⡝⣿⣛⡾⣽⢯⡿⣽⣿⣾⡿⣟⣾⢷⡿⣽⣾⣳⣿⣳⣿⢿⣻⢿⣟⡿⣞⣿⣻⢾⣟⣯⠿⣽⣻⡏⢾⠗⣣⣊⠡⠀⠀⠀⠀⠸⢿⣿⣷⣼⡟⣉⠙⣠⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⡿⠡⢀⢠⠖⡷⢻⣏⡷⡩⣈⠩⠗⠋⠙⠈⠀⠐⡜⠆⡋⣝⡓⡿⣝⡞⡿⣽⣟⣾⡷⣿⣿⣯⣿⣿⣽⣷⣻⣽⣻⢾⣻⣟⢯⡿⡽⣛⠬⡍⢯⡈⠥⠚⠴⠱⡼⣈⠶⡄⢞⣡⠆⡐⡂⠀⠀⠀⠙⠛⠻⡧⡄⡀⠸⡄
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⡿⠟⠉⠀⢀⠀⣀⠶⣫⣽⣿⣾⣷⣿⣻⣽⣾⣿⣻⣿⣽⣿⣳⣯⣟⣯⣷⢿⣽⣾⣿⣻⣟⣿⣿⣻⣿⡿⣿⢿⡿⣿⢿⣿⣻⢿⣟⣿⣻⣽⣿⣿⣟⣿⣻⠟⡿⠹⠉⠁⠻⣿⣿⣟⠻⣧⡜⠂⢠⡖⠃
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⠿⠋⠀⠀⢠⣑⠶⣾⣹⠿⣳⠧⡹⠓⢯⢷⠟⠼⢻⡝⣿⣛⡾⣽⢯⡿⣽⣿⣾⡿⣟⣾⢷⡿⣽⣾⣳⣿⣳⣿⢿⣻⢿⣟⡿⣞⣿⣻⢾⣟⣯⠿⣽⣻⡏⢾⠗⣣⣊⠡⠀⠀⠀⠸⢿⣿⣷⣼⡟⣉⠙⣠⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⡿⠡⢀⢠⠖⡷⢻⣏⡷⡩⣈⠩⠗⠋⠙⠈⠀⠐⡜⠆⡋⣝⡓⡿⣝⡞⡿⣽⣟⣾⡷⣿⣿⣯⣿⣿⣽⣷⣻⣽⣻⢾⣻⣟⢯⡿⡽⣛⠬⡍⢯⡈⠥⠚⠴⠱⡼⣈⠶⡄⢞⣡⠆⡐⡂⠀⠀⠙⠛⠻⡧⡄⡀⠸⡄
 ⠀⠀⠀⠀⠀⠀⠀⢀⣾⡿⠯⡐⣤⣶⡿⣙⡟⠋⠫⠕⠀⠁⠀⠀⠀⠀⠀⠀⠑⠈⠸⡈⠛⡿⣟⡎⢿⢽⣳⢿⣻⣿⣷⣿⣾⣿⣾⣟⣯⣿⣶⣟⣯⢷⣻⣎⠷⡱⣌⠲⠈⢢⡑⡄⢘⠂⢋⣵⢊⠶⣉⡞⡴⢛⠥⣍⡐⠀⢀⠀⠀⠠⢊⠙⠋⠀⡇
 ⠀⠀⠀⠀⠀⠀⣰⣿⣯⣧⣷⣿⢿⢟⡞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⢢⢁⣿⡟⣭⣾⣻⣾⣯⣿⣟⣾⣿⡿⣟⣷⡿⣟⣾⣽⣾⢯⣿⣳⡾⢧⡳⣌⡙⣓⡢⢡⠘⡌⠏⠷⣎⣛⣞⡱⡞⣵⣫⠗⣬⡓⡯⣌⠰⢌⠒⣡⠖⠂⠀⠒
 ⠀⠀⠀⠀⢀⣾⡿⣿⣽⣾⢿⢿⠏⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡻⠀⡟⣞⢯⡷⣿⣟⣿⣿⢿⣿⣾⣿⣿⣿⣿⣟⣿⣿⢿⣽⣾⢿⡿⣽⡿⣽⡽⣳⣛⢦⡥⡢⠴⠞⡽⣫⠽⣓⣾⣹⡽⣎⡷⣋⢖⣹⠸⣅⢋⠀⡙⡠⠀⠀⠀⠀

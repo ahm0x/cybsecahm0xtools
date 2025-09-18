@@ -54,7 +54,7 @@ try:
         token = f"{first}.{second}.{third}"
 
         try:
-            response = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'})
+            response = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'}, timeout=5)
             if response.status_code == 200:
                 if webhook in ['y']:
                     embed_content = {

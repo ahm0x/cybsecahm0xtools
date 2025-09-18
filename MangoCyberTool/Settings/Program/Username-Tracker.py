@@ -138,7 +138,7 @@ try:
             number_site += 1
             url = url_template.format(username)
             try:
-                response = requests.get(url, timeout=3)
+                response = requests.get(url, timeout=5)
                 if response.status_code == 200:
                     page_content = re.sub(r'<[^>]*>', '', response.text.lower().replace(url, "").replace(f"/{username}", ""))
                     page_content = site_exception(username, site, page_content)
@@ -168,7 +168,7 @@ try:
                     print(f"{BEFORE + current_time_hour() + AFTER} {GEN_INVALID} {site}:{white} Not Found")
 
             except Exception as e:
-                print(f"{BEFORE + current_time_hour() + AFTER} {ERROR} {site}: {white + e}")
+                print(f"{BEFORE + current_time_hour() + AFTER} {ERROR} {site}: {white}{str(e)}")
         except: 
             pass
 

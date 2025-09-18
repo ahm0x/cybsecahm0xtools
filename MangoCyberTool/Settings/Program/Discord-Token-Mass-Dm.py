@@ -15,7 +15,7 @@ try:
         for channel in channels:
             for user in [x["username"]+"#"+x["discriminator"] for x in channel["recipients"]]:
                 try:
-                    requests.post(f"https://discord.com/api/v9/channels/{channel['id']}/messages", headers={'Authorization': token_discord}, data={"content": f"{Message}"})
+                    requests.post(f"https://discord.com/api/v9/channels/{channel['id']}/messages", headers={'Authorization': token_discord}, data={"content": f"{Message}"}, timeout=5)
                     print(f'{BEFORE + current_time_hour() + AFTER} {ADD} Status: {white}Send{red} User: {white}{user}{red}')
 
                 except Exception as e:
@@ -23,7 +23,7 @@ try:
 
     Slow(discord_banner)
     token_discord = Choice1TokenDiscord()
-    validityTest = requests.get('https://discordapp.com/api/v6/users/@me', headers={'Authorization': token_discord, 'Content-Type': 'application/json'})
+    validityTest = requests.get('https://discordapp.com/api/v6/users/@me', headers={'Authorization': token_discord, 'Content-Type': 'application/json'}, timeout=5)
     if validityTest.status_code != 200:
         ErrorToken()
     try:
@@ -37,7 +37,7 @@ try:
     except:
         ErrorNumber()
 
-    channelIds = requests.get("https://discord.com/api/v9/users/@me/channels", headers={'Authorization': token_discord}).json()
+    channelIds = requests.get("https://discord.com/api/v9/users/@me/channels", headers={'Authorization': token_discord}, timeout=5).json()
 
     number = 0
     for i in range(repetition):

@@ -30,7 +30,7 @@ try:
         for link in css_links:
             css_url = urljoin(base_url, link['href'])
             try:
-                css_response = requests.get(css_url)
+                css_response = requests.get(css_url, timeout=5)
                 if css_response.status_code == 200:
                     all_css += css_response.text + "\n"
                 else:
@@ -52,7 +52,7 @@ try:
         for script in script_links:
             js_url = urljoin(base_url, script['src'])
             try:
-                js_response = requests.get(js_url)
+                js_response = requests.get(js_url, timeout=5)
                 if js_response.status_code == 200:
                     all_js += js_response.text + "\n"
                 else:

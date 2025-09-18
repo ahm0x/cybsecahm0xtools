@@ -49,7 +49,7 @@ try:
     def nitro_check():
         code_nitro = ''.join([random.choice(string.ascii_uppercase + string.digits) for _ in range(16)])
         url_nitro = f'https://discord.gift/{code_nitro}'
-        response = requests.get(f'https://discordapp.com/api/v6/entitlements/gift-codes/{code_nitro}?with_application=false&with_subscription_plan=true', timeout=1)
+        response = requests.get(f'https://discordapp.com/api/v6/entitlements/gift-codes/{code_nitro}?with_application=false&with_subscription_plan=true', timeout=5)
         if response.status_code == 200:
             if webhook in ['y']:
                 send_webhook(url_nitro)

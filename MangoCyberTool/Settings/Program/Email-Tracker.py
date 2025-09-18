@@ -30,7 +30,8 @@ try:
 
             response = session.get(
                 "https://www.instagram.com/accounts/emailsignup/", 
-                headers=headers
+                headers=headers,
+                timeout=5
             )
             if response.status_code == 200:
                 if 'csrftoken' in session.cookies:
@@ -46,7 +47,8 @@ try:
             response = session.post(
                 url="https://www.instagram.com/api/v1/web/accounts/web_create_ajax/attempt/",
                 headers=headers,
-                data=data
+                data=data,
+                timeout=5
             )
             if response.status_code == 200:
                 if "Another account is using the same email." in response.text:
@@ -68,7 +70,8 @@ try:
                 url = "https://api.twitter.com/i/users/email_available.json",
                 params = {
                     "email": email
-                }
+                },
+                timeout=5
             )
             if response.status_code == 200:
                 if response.json()["taken"] == True:
@@ -88,7 +91,8 @@ try:
                 params={
                     "source_url": "/",
                     "data": '{"options": {"email": "' + email + '"}, "context": {}}'
-                }
+                },
+                timeout=5
             )
 
             if response.status_code == 200:

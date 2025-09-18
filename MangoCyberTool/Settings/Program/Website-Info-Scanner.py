@@ -63,7 +63,7 @@ try:
 
     def website_status(website_url):
         try:
-            response = requests.get(website_url, timeout=5)
+            response = requests.get(website_url, timeout=10)
             status_code = response.status_code
         except RequestException:
             status_code = 404
@@ -72,7 +72,7 @@ try:
     def ip_info(ip):
         api_url = f"https://ipinfo.io/{ip}/json"
         try:
-            response = requests.get(api_url)
+            response = requests.get(api_url, timeout=5)
             api = response.json()
         except RequestException:
             api = {}
@@ -162,7 +162,7 @@ try:
 
     def http_headers(website_url):
         try:
-            response = requests.get(website_url, timeout=5)
+            response = requests.get(website_url, timeout=10)
             headers = response.headers
             for header, value in headers.items():
                 print(f"{BEFORE + current_time_hour() + AFTER} {ADD} HTTP Header: {white}{header}{red} Value: {white}{value}{red}")
@@ -184,7 +184,7 @@ try:
     def check_security_headers(website_url):
         headers_of_interest = ['Content-Security-Policy', 'Strict-Transport-Security', 'X-Content-Type-Options', 'X-Frame-Options', 'X-XSS-Protection']
         try:
-            response = requests.get(website_url, timeout=5)
+            response = requests.get(website_url, timeout=10)
             headers = response.headers
             for header in headers_of_interest:
                 if header in headers:
@@ -196,7 +196,7 @@ try:
 
     def analyze_cookies(website_url):
         try:
-            response = requests.get(website_url, timeout=5)
+            response = requests.get(website_url, timeout=10)
             cookies = response.cookies
             for cookie in cookies:
                 secure = 'Secure' if cookie.secure else 'Not Secure'
@@ -207,7 +207,7 @@ try:
 
     def check_redirections(website_url):
         try:
-            response = requests.get(website_url, timeout=5, allow_redirects=True)
+            response = requests.get(website_url, timeout=10, allow_redirects=True)
             if response.history:
                 for resp in response.history:
                     print(f"{BEFORE + current_time_hour() + AFTER} {ADD} Redirections: {white}{resp.url}{red} Status: {white}{resp.status_code}{red}")
@@ -218,7 +218,7 @@ try:
 
     def check_additional_http_headers(website_url):
         try:
-            response = requests.get(website_url, timeout=5)
+            response = requests.get(website_url, timeout=10)
             headers = response.headers
             additional_headers = ['Server', 'X-Powered-By', 'X-UA-Compatible', 'X-Permitted-Cross-Domain-Policies']
             for header in additional_headers:
@@ -232,7 +232,7 @@ try:
     def test_performance(website_url):
         try:
             start_time = time.time()
-            response = requests.get(website_url, timeout=10)
+            response = requests.get(website_url, timeout=15)
             end_time = time.time()
             response_time = end_time - start_time
             print(f"{BEFORE + current_time_hour() + AFTER} {ADD} Response Time: {white}{response_time:.2f} seconds{red}")
@@ -242,7 +242,7 @@ try:
 
     def analyze_content(website_url):
         try:
-            response = requests.get(website_url, timeout=5)
+            response = requests.get(website_url, timeout=10)
             content = response.text
             title_match = re.search(r'<title>(.*?)</title>', content, re.IGNORECASE)
             if title_match:
@@ -272,7 +272,7 @@ try:
 
     def detect_technologies(website_url):
         try:
-            response = requests.get(website_url, timeout=5)
+            response = requests.get(website_url, timeout=10)
             headers = response.headers
             technologies = []
 

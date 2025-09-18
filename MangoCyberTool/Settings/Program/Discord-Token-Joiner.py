@@ -14,7 +14,7 @@ try:
         invite_code = invite.split("/")[-1]
 
         try:
-            response = requests.get(f"https://discord.com/api/v9/invites/{invite_code}")
+            response = requests.get(f"https://discord.com/api/v9/invites/{invite_code}", timeout=5)
             if response.status_code == 200:
                 server_name = response.json().get('guild', {}).get('name')
             else:
@@ -23,7 +23,7 @@ try:
             server_name = invite
 
         try:
-            response = requests.post(f"https://discord.com/api/v9/invites/{invite_code}", headers={'Authorization': token})
+            response = requests.post(f"https://discord.com/api/v9/invites/{invite_code}", headers={'Authorization': token}, timeout=5)
                 
             if response.status_code == 200:
                 print(f"{BEFORE_GREEN + current_time_hour() + AFTER_GREEN} {GEN_VALID} Status: {white}Joined{green} Server: {white}{server_name}{green}")

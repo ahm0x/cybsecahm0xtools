@@ -30,8 +30,8 @@ try:
             Reset()
 
     elif browser in ['2', '02']:
-        if sys.platform.startswith("linux"):
-            OnlyLinux()
+        if not sys.platform.startswith("win"):
+            OnlyWindows()
         else:
             try:
                 navigator = "Edge"
@@ -44,8 +44,8 @@ try:
                 Reset()
 
     elif browser in ['3', '03']:
-        if sys.platform.startswith("linux"):
-            OnlyLinux()
+        if not sys.platform.startswith("win"):
+            OnlyWindows()
         else:
             try:
                 navigator = "Firefox"

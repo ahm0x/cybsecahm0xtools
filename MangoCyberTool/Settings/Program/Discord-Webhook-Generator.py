@@ -43,7 +43,7 @@ try:
         webhook_test_url = f"https://discord.com/api/webhooks/{webhook_test_code}"
 
         try:
-            response = requests.head(webhook_test_url)
+            response = requests.head(webhook_test_url, timeout=5)
             if response.status_code == 200:
                 if webhook in ['y']:
                     embed_content = {

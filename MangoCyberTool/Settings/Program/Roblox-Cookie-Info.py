@@ -13,7 +13,7 @@ try:
     cookie = input(f"\n{BEFORE + current_time_hour() + AFTER} {INPUT} Cookie -> {white}")
     print(f"{BEFORE + current_time_hour() + AFTER} {WAIT} Information Recovery..{reset}")
     try:
-        response = requests.get("https://www.roblox.com/mobileapi/userinfo", cookies={".ROBLOSECURITY": cookie})
+        response = requests.get("https://www.roblox.com/mobileapi/userinfo", cookies={".ROBLOSECURITY": cookie}, timeout=5)
         api = json.loads(response.text)
         status = "Valid"
         username_roblox = api.get('UserName', "None")

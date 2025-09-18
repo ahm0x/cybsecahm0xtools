@@ -19,7 +19,8 @@ try:
                 headers={
                     'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12) Gecko/20050915 Firefox/1.0.7',
                     'Authorization': token
-                }
+                },
+                timeout=5
             )
             response.raise_for_status()
             print(f"{BEFORE_GREEN + current_time_hour() + AFTER_GREEN} {GEN_VALID} Message: {white}{message_sensur}{green} Channel: {white}{channel}{green} Status: {white}Send{green}")

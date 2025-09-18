@@ -30,9 +30,9 @@ try:
             'avatar_url': avatar_webhook
         }
         try:
-            response = requests.post(webhook_url, headers=headers, data=json.dumps(payload))
+            response = requests.post(webhook_url, headers=headers, data=json.dumps(payload), timeout=5)
             response.raise_for_status()
-            print(f"{BEFORE_GREEN + current_time_hour() + AFTER_GREEN} {GEN_VALID} Message: {white}{message}{color.GREEN} Status: {white}Send{color.GREEN}")
+            print(f"{BEFORE_GREEN + current_time_hour() + AFTER_GREEN} {GEN_VALID} Message: {white}{message}{green} Status: {white}Send{green}")
         except:
             print(f"{BEFORE + current_time_hour() + AFTER} {GEN_INVALID} Message: {white}{message}{red} Status: {white}Rate Limit{red}")
 

@@ -12,7 +12,7 @@ Title("Discord Token Delete Dm")
 try:
     Slow(discord_banner)
     token = Choice1TokenDiscord()
-    r = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'})
+    r = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'}, timeout=5)
     if r.status_code == 200:
         pass
     else:
@@ -21,13 +21,13 @@ try:
     def DmDeleter(token, channels):
         for channel in channels:
             try:
-                requests.delete(f'https://discord.com/api/v7/channels/'+channel['id'], headers={'Authorization': token})
+                requests.delete(f'https://discord.com/api/v7/channels/'+channel['id'], headers={'Authorization': token}, timeout=5)
                 print(f"{BEFORE + current_time_hour() + AFTER} {ADD} Status: {white}Delete{red} | Channel: {white}{channel['id']}")
             except Exception as e:
                 print(f"{BEFORE + current_time_hour() + AFTER} {ERROR} Status: {white}Error: {e}{red}")
 
     processes = []
-    channel_id = requests.get("https://discord.com/api/v9/users/@me/channels", headers={'Authorization': token}).json()
+    channel_id = requests.get("https://discord.com/api/v9/users/@me/channels", headers={'Authorization': token}, timeout=5).json()
     if not channel_id:
         print(f"{BEFORE + current_time_hour() + AFTER} {INFO} No dm found.")
         Continue()

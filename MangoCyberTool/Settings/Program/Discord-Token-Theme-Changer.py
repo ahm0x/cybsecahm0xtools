@@ -16,7 +16,7 @@ try:
     token = Choice1TokenDiscord()
 
     headers = {'Authorization': token, 'Content-Type': 'application/json'}
-    r = requests.get('https://discord.com/api/v8/users/@me', headers=headers)
+    r = requests.get('https://discord.com/api/v8/users/@me', headers=headers, timeout=5)
     if r.status_code == 200:
         try:
             amount = int(input(f"{BEFORE + current_time_hour() + AFTER} {INPUT} Enter the number of cycles -> {color.RESET}"))
@@ -30,7 +30,7 @@ try:
                 print(f"{BEFORE + current_time_hour() + AFTER} {ADD} Status: {white}Changed{red} Theme: {white}{theme}{red}")
                 time.sleep(0.5)
                 setting = {'theme': theme}
-                requests.patch("https://discord.com/api/v8/users/@me/settings", headers=headers, json=setting)
+                requests.patch("https://discord.com/api/v8/users/@me/settings", headers=headers, json=setting, timeout=5)
             except:
                 print(f"{BEFORE + current_time_hour() + AFTER} {ERROR} Status:  {white}Error{red}  Theme: {white}{theme}{red}")
 

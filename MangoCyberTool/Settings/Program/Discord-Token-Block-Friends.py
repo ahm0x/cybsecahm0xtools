@@ -12,7 +12,7 @@ Title("Discord Token Block Friends")
 try:
     Slow(discord_banner)
     token = Choice1TokenDiscord()
-    r = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'})
+    r = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'}, timeout=5)
     if r.status_code == 200:
         pass
     else:
@@ -21,12 +21,12 @@ try:
     def BlockFriends(token, friends):
         for friend in friends:
             try:
-                requests.put(f'https://discord.com/api/v9/users/@me/relationships/'+friend['id'], headers={'Authorization': token}, json={"type": 2})
+                requests.put(f'https://discord.com/api/v9/users/@me/relationships/'+friend['id'], headers={'Authorization': token}, json={"type": 2}, timeout=5)
                 print(f"{BEFORE + current_time_hour() + AFTER} {ADD} Status: {white}Blocked{red} | User: {white}{friend['user']['username']}#{friend['user']['discriminator']}")
             except Exception as e:
                 print(f"{BEFORE + current_time_hour() + AFTER} {ERROR} Status: {white}Error: {e}{red}")
 
-    friend_id = requests.get("https://discord.com/api/v9/users/@me/relationships", headers={'Authorization': token}).json()
+    friend_id = requests.get("https://discord.com/api/v9/users/@me/relationships", headers={'Authorization': token}, timeout=5).json()
     if not friend_id:
         print(f"{BEFORE + current_time_hour() + AFTER} {INFO} No friends found.")
         Continue()

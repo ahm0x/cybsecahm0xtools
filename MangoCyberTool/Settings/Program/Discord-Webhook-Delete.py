@@ -13,7 +13,7 @@ try:
     webhook_url = input(f"\n{BEFORE + current_time_hour() + AFTER} {INPUT} URL Webhook -> {color.RESET}")
     CheckWebhook(webhook_url)
     try:
-        response = requests.delete(webhook_url)
+        response = requests.delete(webhook_url, timeout=5)
         response.raise_for_status()
         print(f"{BEFORE + current_time_hour() + AFTER} {INFO} Webhook Deleted.")
         Continue()

@@ -1,20 +1,36 @@
 
 import os
 import sys
-import psutil
 import time
-import keyboard
 import subprocess
 import re
+
+# Platform-specific imports
+if sys.platform.startswith("win"):
+    try:
+        import psutil
+        import keyboard
+    except ImportError:
+        psutil = None
+        keyboard = None
+else:
+    psutil = None
+    keyboard = None
 
 def disinfect():
     try:
         def UnblockTaskManager():
+            if not sys.platform.startswith("win"):
+                print(f"[!] | Task Manager unblock only available on Windows.")
+                return
             "Perm Admin Required"
             print(f"[!] | Unblock Task Manager.")
             subprocess.run("reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 0 /f", shell=True)
 
         def UnblockKey():
+            if not sys.platform.startswith("win") or not keyboard:
+                print(f"[!] | Key unblock only available on Windows with keyboard module.")
+                return
             print(f"[!] | Unblock Key.")
             key = [
                 "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
@@ -35,6 +51,9 @@ def disinfect():
             
 
         def DeleteRestart():
+            if not psutil:
+                print(f"[!] | Process termination requires psutil module.")
+                return
             print(f"[!] | Delete Restart.")
             def EndTask(file):
                 for proc in psutil.process_iter():
@@ -54,6 +73,9 @@ def disinfect():
                 folder = os.path.join(os.path.expanduser('~'), 'Library', 'LaunchAgents')
             elif sys.platform.startswith('linux'):
                 folder = os.path.join(os.path.expanduser('~'), '.config', 'autostart')
+            else:
+                print(f"[!] | Startup deletion not supported on this platform.")
+                return
 
             file = f"{folder}/ㅤ.exe"
             if os.path.exists(file):
@@ -64,6 +86,9 @@ def disinfect():
                 os.remove(file)
 
         def UnblockSite():
+            if not sys.platform.startswith("win"):
+                print(f"[!] | Website unblock only available on Windows.")
+                return
             "Perm Admin Required"
             print(f"[!] | Unblock Website.")
             def unblock_website(website):
@@ -113,6 +138,9 @@ def disinfect():
                 unblock_website(website)
         
         def DeleteDiscordInjection():
+            if not psutil:
+                print(f"[!] | Discord injection removal requires psutil module.")
+                return
             print(f"[!] | Closing Discord.")
             for proc in psutil.process_iter():
                 if 'discord' in proc.name().lower():

@@ -13,7 +13,7 @@ try:
     ip = input(f"\n{BEFORE + current_time_hour() + AFTER} {INPUT} Ip -> {reset}")
 
     try:
-        response = requests.get(f"https://{website}/api/ip/ip={ip}")
+        response = requests.get(f"https://{website}/api/ip/ip={ip}", timeout=5)
         api = response.json()
 
         ip = api.get('ip')
@@ -32,7 +32,7 @@ try:
         as_host = api.get('as')
 
     except:
-        response = requests.get(f"http://ip-api.com/json/{ip}")
+        response = requests.get(f"http://ip-api.com/json/{ip}", timeout=5)
         api = response.json()
 
         status = "Valid" if api.get('status') == "success" else "Invalid"

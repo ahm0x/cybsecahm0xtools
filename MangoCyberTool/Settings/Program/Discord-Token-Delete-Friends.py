@@ -12,7 +12,7 @@ Title("Discord Token Delete Friends")
 try:
     Slow(discord_banner)
     token = Choice1TokenDiscord()
-    r = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'})
+    r = requests.get('https://discord.com/api/v8/users/@me', headers={'Authorization': token, 'Content-Type': 'application/json'}, timeout=5)
     if r.status_code == 200:
         pass
     else:
@@ -21,16 +21,16 @@ try:
         for friend in friends:
             try:
                 requests.delete(
-                    f'https://discord.com/api/v9/users/@me/relationships/'+friend['id'], headers={'Authorization': token})
+                    f'https://discord.com/api/v9/users/@me/relationships/'+friend['id'], headers={'Authorization': token}, timeout=5)
                 print(f"{BEFORE + current_time_hour() + AFTER} {ADD} Status: {white}Delete{red} | User: {white}{friend['user']['username']}#{friend['user']['discriminator']}")
             except Exception as e:
                 print(f"{BEFORE + current_time_hour() + AFTER} {ERROR} Status: {white}Error: {e}{red}")
 
-    if not requests.get("https://discord.com/api/v9/users/@me/relationships", headers={'Authorization': token, 'Content-Type': 'application/json'}).json():
+    if not requests.get("https://discord.com/api/v9/users/@me/relationships", headers={'Authorization': token, 'Content-Type': 'application/json'}, timeout=5).json():
         print(f"{BEFORE + current_time_hour() + AFTER} {ERROR} Status: {white}Error{red}")
 
     processes = []
-    friend_id = requests.get("https://discord.com/api/v9/users/@me/relationships", headers={'Authorization': token, 'Content-Type': 'application/json'}).json()
+    friend_id = requests.get("https://discord.com/api/v9/users/@me/relationships", headers={'Authorization': token, 'Content-Type': 'application/json'}, timeout=5).json()
     if not friend_id:
         print(f"{BEFORE + current_time_hour() + AFTER} {INFO} No friends found.")
 

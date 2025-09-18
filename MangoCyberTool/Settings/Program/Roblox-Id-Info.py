@@ -14,7 +14,7 @@ try:
     print(f"{BEFORE + current_time_hour() + AFTER} {WAIT} Information Recovery..{reset}")
     try:
 
-        response = requests.get(f"https://users.roblox.com/v1/users/{user_id}")
+        response = requests.get(f"https://users.roblox.com/v1/users/{user_id}", timeout=5)
         api = response.json()
 
         userid = api.get('id', "None")

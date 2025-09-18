@@ -15,7 +15,7 @@ try:
             'Content-Type': 'application/json',
         }
 
-        response = requests.get(webhook_url, headers=headers)
+        response = requests.get(webhook_url, headers=headers, timeout=5)
         webhook_info = response.json()
 
         webhook_id = webhook_info.get('id', "None")

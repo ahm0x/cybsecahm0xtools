@@ -48,9 +48,9 @@ try:
 
         try:
             if sys.platform.startswith("win"):
-                result = subprocess.run(['ping', '-n', '1', ip], capture_output=True, text=True, timeout=0.1)
+                result = subprocess.run(['ping', '-n', '1', ip], capture_output=True, text=True, timeout=1)
             elif sys.platform.startswith("linux"):
-                result = subprocess.run(['ping', '-c', '1', '-W', '1', ip], capture_output=True, text=True, timeout=0.1)
+                result = subprocess.run(['ping', '-c', '1', '-W', '1', ip], capture_output=True, text=True, timeout=1)
 
             if result.returncode == 0:
                 number_valid += 1

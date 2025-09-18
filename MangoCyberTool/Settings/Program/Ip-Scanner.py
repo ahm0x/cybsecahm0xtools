@@ -106,7 +106,7 @@ try:
     def ip_host_info(ip):
         api_url = f"https://ipinfo.io/{ip}/json"
         try:
-            response = requests.get(api_url)
+            response = requests.get(api_url, timeout=5)
             api = response.json()
         except RequestException:
             api = {}

