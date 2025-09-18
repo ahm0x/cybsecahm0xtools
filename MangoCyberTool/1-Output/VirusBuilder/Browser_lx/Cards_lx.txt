@@ -1,0 +1,8 @@
+
+------------------------------| Google Chrome (C:\Users\lx\AppData\Local\Google\Chrome\User Data) |------------------------------
+
+
+------------------------------| Microsoft Edge (C:\Users\lx\AppData\Local\Microsoft\Edge\User Data) |------------------------------
+
+
+------------------------------| Opera GX (C:\Users\lx\AppData\Roaming\Opera Software\Opera GX Stable) |------------------------------

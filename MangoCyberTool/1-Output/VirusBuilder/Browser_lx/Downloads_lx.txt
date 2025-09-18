@@ -1,0 +1,245 @@
+
+------------------------------| Google Chrome (C:\Users\lx\AppData\Local\Google\Chrome\User Data) |------------------------------
+
+
+------------------------------| Microsoft Edge (C:\Users\lx\AppData\Local\Microsoft\Edge\User Data) |------------------------------
+
+- Path : C:\Users\lx\Downloads\CheatEngine75.exe
+  Url  : https://www.cheatengine.org/downloads.php
+
+- Path : C:\Users\lx\Downloads\JDownloaderSetup.exe
+  Url  : https://fetch.jdcdn.org/download/dl/download?t=1736014471873&v=101&s=Q4uq9DnDpUI%2FUq9PkDf7F8eMe6%2Bj09mrIQZPZgh7JkU%3D
+
+
+------------------------------| Opera GX (C:\Users\lx\AppData\Roaming\Opera Software\Opera GX Stable) |------------------------------
+
+- Path : C:\Users\lx\Pictures\Btd6ModHelper.dll
+  Url  : https://gurrenm3.github.io/BTD-Mod-Helper/
+
+- Path : C:\Users\lx\Downloads\BTD6EpicGamesModCompat.dll
+  Url  : https://github.com/GrahamKracker/BTD6EpicGamesModCompat/releases/tag/1.2.1
+
+- Path : C:\Users\lx\Downloads\Btd6ModHelper.dll
+  Url  : https://hemisemidemipresent.github.io/btd6-modding-tutorial/
+
+- Path : C:\Users\lx\Downloads\MelonLoader.x64.zip
+  Url  : https://hemisemidemipresent.github.io/btd6-modding-tutorial/
+
+- Path : C:\Users\lx\Downloads\infinite monkey money-131-3-3-0-1687600207.zip
+  Url  : https://www.nexusmods.com/bloonstd6/mods/131?tab=files&file_id=535
+
+- Path : C:\Users\lx\Downloads\infinite monkey knowledge-132-3-3-0-1687600550.zip
+  Url  : https://www.nexusmods.com/bloonstd6/mods/132?tab=files&file_id=536
+
+- Path : D:\games\BloonsTD6\Mods\EditPlayerData.dll
+  Url  : https://github.com/MaliciousFiles/EditPlayerData/releases/tag/v1.3.5
+
+- Path : D:\games\BloonsTD6\Mods\Multicash.dll
+  Url  : https://github.com/GMFelixfex/MultiCash/releases/tag/1.0.5
+
+- Path : C:\Users\lx\Desktop\vdkH1qgMo_1200x0__1.jpg
+  Url  : https://www.google.com/search?client=opera-gx&hs=p5F&sca_esv=c7d8016326faa797&sxsrf=ADLYWILQEvhJt1g760cTfVW59sFO9JDgHA:1735230714078&q=mike+tyson+y+tupac&udm=2&fbs=AEQNm0CbCVgAZ5mWEJDg6aoPVcBgWizR0-0aFOH11Sb5tlNhdwTBRAFlvB_IDmZx89cGs2seX6PiZB2kyHkbjrZzaWjXj8MS06UxzeNfYNv5TQXVE1e_-3VrutZFNtRZN1ieY1uFX1WEKVZtQxtR9ZYV00msIdR9QruiqE3tiwkSkIvyT5BLPgTCDPyHypsuvIYAbSrWzlm-&sa=X&ved=2ahUKEwi_j8OS7sWKAxWrXfEDHZbaG9UQtKgLegQIGhAB&biw=1878&bih=966&dpr=1#vhid=9RTmWoBis5khtM&vssid=mosaic
+
+- Path : C:\Users\lx\Downloads\drive-download-20241226T183527Z-001.zip
+  Url  : https://drive.google.com/drive/folders/1AVeQGIVDL30GSb1NHeBXDj4AF3fL4YjI
+
+- Path : C:\Users\lx\Desktop\hamachi.msi
+  Url  : https://vpn.net/
+
+- Path : C:\Users\lx\Downloads\Satisfactory 1.0 release V8.ct
+  Url  : https://fearlessrevolution.com/viewtopic.php?t=31557#google_vignette
+
+- Path : C:\Users\lx\Downloads\RedTiger-Tools-main.zip
+  Url  : https://github.com/loxy0dev/RedTiger-Tools/archive/refs/heads/main.zip
+
+- Path : C:\Users\lx\Downloads\Browser_lx.zip
+  Url  : https://cdn.discordapp.com/attachments/1318603196683517972/1324390675914948709/Browser_lx.zip?ex=6777fa6f&is=6776a8ef&hm=890bf3ffb274ed515cfc426295fe1789762bdb6a63e7d2954c8b9ef5dc17cd59&
+
+- Path : C:\Users\lx\Downloads\Dialnet-LaAsambleaNacionalUnPrimerIntentoDeParticipacionFe-5346887.pdf
+  Url  : https://dialnet.unirioja.es/descarga/articulo/5346887.pdf?utm_source=chatgpt.com
+
+- Path : C:\Users\lx\Downloads\Dialnet-LaAsambleaNacionalUnPrimerIntentoDeParticipacionFe-5346887 (1).pdf
+  Url  : https://web.whatsapp.com/
+
+- Path : C:\Users\lx\Downloads\indice.png
+  Url  : https://www.flaticon.es/icono-gratis/indice_2807698
+
+- Path : C:\Users\lx\Downloads\fichier_images_BMP__22819.ico
+  Url  : https://icon-icons.com/es/download/22819/ICO/256/
+
+- Path : C:\Users\lx\Downloads\Browser_lx.zip
+  Url  : https://cdn.discordapp.com/attachments/1315802431824592947/1324730795243475095/Browser_lx.zip?ex=67793731&is=6777e5b1&hm=60a7605a7d6860be1ae87c3c549ad13a2a603bdec19c6f48fb9bb3fdf4152c32&
+
+- Path : C:\Users\lx\Desktop\webgoat-2023.8.jar
+  Url  : https://github.com/WebGoat/WebGoat/releases
+
+- Path : C:\Users\lx\Downloads\juicy_malware_windows_64.exe.url
+  Url  : https://juice-shop.herokuapp.com/ftp/quarantine
+
+- Path : C:\Users\lx\Desktop\juicy_malware_windows_64.exe
+  Url  : https://github.com/juice-shop/juicy-malware/raw/master/juicy_malware_windows_64.exe
+
+- Path : C:\Users\lx\Downloads\incident-support.kdbx
+  Url  : https://juice-shop.herokuapp.com/ftp/
+
+- Path : C:\Users\lx\Downloads\juicy_malware_windows_64.exe (1).url
+  Url  : https://juice-shop.herokuapp.com/ftp/quarantine
+
+- Path : C:\Users\lx\Desktop\juicy_malware_windows_64 (1).exe
+  Url  : https://github.com/juice-shop/juicy-malware/raw/master/juicy_malware_windows_64.exe
+
+- Path : C:\Users\lx\Downloads\FIGlet-Win32(static).zip
+  Url  : https://sourceforge.net/projects/figlet-for-windows/files/latest/download
+
+- Path : C:\Users\lx\Downloads\Bloody.flf
+  Url  : https://github.com/xero/figlet-fonts/blob/master/Bloody.flf
+
+- Path : C:\Users\lx\Downloads\figlet-fonts-master.zip
+  Url  : https://github.com/xero/figlet-fonts
+
+- Path : C:\Users\lx\Downloads\icons8-mango-32.png
+  Url  : https://iconos8.es/icons/set/fruta-mango
+
+- Path : C:\Users\lx\Downloads\mango_icono (1).ico
+  Url  : https://cdn.discordapp.com/attachments/1218378256617705554/1325085598876172381/mango_icono.ico?ex=677a81a1&is=67793021&hm=8db914c32504081ab452b60b96dfb41bd97a3f332ff35f5398c016bc39fdf1dd&
+
+- Path : C:\Users\lx\Downloads\37.27.130.131.zip
+  Url  : https://mega.nz/file/swIDhZQS#oGdfnKT4Q4hN7WQGvM1MFW4swXY0O1yzYHO6XFfF-2g
+
+- Path : C:\Users\lx\Desktop\MegaDownloader_v1-7.exe
+  Url  : https://www.softonic.com/descargar/megadownloader/windows/post-descarga
+
+- Path : C:\Users\lx\Downloads\chromedriver-win64.zip
+  Url  : https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.204/win64/chromedriver-win64.zip
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part01.rar
+  Url  : https://www.mediafire.com/file/n5r7ey28he85dfm/Citi2esSky2linesII-elamigos.part01.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part02.rar
+  Url  : https://www.mediafire.com/file/6vns9gwerfzx8tz/Citi2esSky2linesII-elamigos.part02.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part03.rar
+  Url  : https://www.mediafire.com/file/ow4m1grhw7opm2p/Citi2esSky2linesII-elamigos.part03.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part04.rar
+  Url  : https://www.mediafire.com/file/abp32z02l4uxdk0/Citi2esSky2linesII-elamigos.part04.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part05.rar
+  Url  : https://www.mediafire.com/file/wlkd9pfn5uwhmsl/Citi2esSky2linesII-elamigos.part05.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part06.rar
+  Url  : https://www.mediafire.com/file/t94l19t3cv48hjn/Citi2esSky2linesII-elamigos.part06.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part07.rar
+  Url  : https://www.mediafire.com/file/g9tb9jewffrdaog/Citi2esSky2linesII-elamigos.part07.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part08.rar
+  Url  : https://www.mediafire.com/file/tu0v5zqnaayfxu5/Citi2esSky2linesII-elamigos.part08.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part09.rar
+  Url  : https://www.mediafire.com/file/sv3jomz3mv5un7r/Citi2esSky2linesII-elamigos.part09.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part10.rar
+  Url  : https://www.mediafire.com/file/jbdvbdscq1s5d21/Citi2esSky2linesII-elamigos.part10.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part11.rar
+  Url  : https://www.mediafire.com/file/54igry57cpfmtwm/Citi2esSky2linesII-elamigos.part11.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part12.rar
+  Url  : https://www.mediafire.com/file/p0j9af5cf48ethj/Citi2esSky2linesII-elamigos.part12.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part13.rar
+  Url  : https://www.mediafire.com/file/o2b0wjryvw7kwdn/Citi2esSky2linesII-elamigos.part13.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part14.rar
+  Url  : https://www.mediafire.com/file/5u4qx5fx1yimkm6/Citi2esSky2linesII-elamigos.part14.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part15.rar
+  Url  : https://www.mediafire.com/file/qh9am4vpkwgzrrm/Citi2esSky2linesII-elamigos.part15.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part16.rar
+  Url  : https://www.mediafire.com/file/4we3xfy95uaf2wr/Citi2esSky2linesII-elamigos.part16.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part17.rar
+  Url  : https://www.mediafire.com/file/n07gxzgxlnnwe3y/Citi2esSky2linesII-elamigos.part17.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part18.rar
+  Url  : https://www.mediafire.com/file/smxxfjrw8ta0jlr/Citi2esSky2linesII-elamigos.part18.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part19.rar
+  Url  : https://www.mediafire.com/file/3y0mep3nthl0scw/Citi2esSky2linesII-elamigos.part19.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part20.rar
+  Url  : https://www.mediafire.com/file/3ksqnivwuqngsd2/Citi2esSky2linesII-elamigos.part20.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part21.rar
+  Url  : https://www.mediafire.com/file/ldn4idiqtobcauh/Citi2esSky2linesII-elamigos.part21.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part22.rar
+  Url  : https://www.mediafire.com/file/wxb1qulur0l8eqo/Citi2esSky2linesII-elamigos.part22.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part23.rar
+  Url  : https://www.mediafire.com/file/51w0daubu4bqoex/Citi2esSky2linesII-elamigos.part23.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part24.rar
+  Url  : https://www.mediafire.com/file/zio8iw5d0abxwaf/Citi2esSky2linesII-elamigos.part24.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part25.rar
+  Url  : https://www.mediafire.com/file/zhg3sgewc079vy7/Citi2esSky2linesII-elamigos.part25.rar/file
+
+- Path : C:\Users\lx\Downloads\Citi2esSky2linesII-elamigos.part26.rar
+  Url  : https://www.mediafire.com/file/dfiqmiwzlnbiykt/Citi2esSky2linesII-elamigos.part26.rar/file
+
+- Path : C:\Users\lx\Desktop\VencordInstaller.exe
+  Url  : https://vencord.dev/download/
+
+- Path : C:\Users\lx\Downloads\Morecambe.cok
+  Url  : https://forum.paradoxplaza.com/forum/attachments/morecambe-cok.1041865/
+
+- Path : C:\Users\lx\Downloads\HxDSetup.zip
+  Url  : https://mh-nexus.de/en/downloads.php?product=HxD20
+
+- Path : C:\Users\lx\Downloads\DALL·E 2025-01-05 22.34.29 - A sleek, futuristic logo for a video game team called 'Synapse'. The logo features a neural network-inspired design, with interconnected glowing nodes.webp
+  Url  : https://chatgpt.com/g/g-pmuQfob8d-image-generator/c/677afa5a-d92c-800e-bc2f-8655db93f3ef
+
+- Path : C:\Users\lx\Desktop\SPOILER_a.exe
+  Url  : https://cdn.discordapp.com/attachments/1218378256617705554/1325585461317472336/SPOILER_a.exe?ex=677c532a&is=677b01aa&hm=ff9e39f7aacdedf262d6957c80ac16bcc87404a33117665cad7f0cef49853feb&
+
+- Path : C:\Users\lx\Downloads\MecanografiaDotNet.exe
+  Url  : https://cdn.discordapp.com/attachments/1313625973404471357/1324731481544720456/MecanografiaDotNet.exe?ex=677bdad5&is=677a8955&hm=051e9c7bb1cc163f83970ca34882e2e078f821201c06b29ca1b66066755399cb&
+
+- Path : C:\Users\lx\Downloads\Browser_Sergio.zip
+  Url  : https://cdn.discordapp.com/attachments/1315802431824592947/1325598976631640156/Browser_Sergio.zip?ex=677c5fc0&is=677b0e40&hm=0cd60f58eae3fc2ee289a6a255c53aa7174207aa7cbf3ac1498689648bed2154&
+
+- Path : C:\Users\lx\Downloads\Browser_Sergio (1).zip
+  Url  : https://cdn.discordapp.com/attachments/1325602468947558400/1325605388502171769/Browser_Sergio.zip?ex=677c65b9&is=677b1439&hm=e886866b974f3ec9c5e0086d0544c05dcc6ec81397a60db4deeae9f5a16acd83&
+
+- Path : C:\Users\lx\Downloads\webPaula.rar
+  Url  : https://cdn.discordapp.com/attachments/1160689737275822131/1325612699622838444/webPaula.rar?ex=677c6c88&is=677b1b08&hm=c94252bebdf02dd7a42c31b0eb645e3f69c4f495e072c4e983e1503eb64652c8&
+
+- Path : C:\Users\lx\Downloads\Browser_Sergio (2).zip
+  Url  : https://cdn.discordapp.com/attachments/1325602468947558400/1325605361331208263/Browser_Sergio.zip?ex=677c65b2&is=677b1432&hm=a67317b47454f074c3095ccdd9bdf0e0b0ba165a41866e330cf87ae61da86586&
+
+- Path : C:\Users\lx\Downloads\BROWSERINFOUHAVEBEENPWNED (1).zip
+  Url  : https://cdn.discordapp.com/attachments/1160689737275822131/1325617590508458055/BROWSERINFOUHAVEBEENPWNED.zip?ex=677c7116&is=677b1f96&hm=8c1f48482943e912c0bbc813c13e72ef343f44bf815d0123e61326162c78f1c3&
+
+- Path : C:\Users\lx\Downloads\VID-20210731-WA0042_025536.mp4
+  Url  : https://cdn.discordapp.com/attachments/928133339016200262/1084339534550020179/VID-20210731-WA0042_025536.mp4?ex=677c0ba3&is=677aba23&hm=ceef162e820ed471549ebdae2e471a270917b8372e580bda9c083ce72e6d99d6&
+
+- Path : C:\Users\lx\Downloads\DiscordSetup.exe
+  Url  : https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64
+
+- Path : C:\Users\lx\Downloads\DiscordSetup (1).exe
+  Url  : https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64
+
+- Path : C:\Users\lx\Downloads\ProtonVPN_v3.5.1_x64.exe
+  Url  : https://protonvpn.com/free-vpn/windows?srsltid=AfmBOopRuj80Vgal4E4xNAs1_F09gPusOPfh8wJ84mdJsGX1LevOYho3
+
+- Path : C:\Users\lx\Downloads\planetvpn.exe
+  Url  : https://freevpnplanet.com/download/
+
+- Path : C:\Users\lx\Downloads\planetvpn (1).exe
+  Url  : https://freevpnplanet.com/download/
+
+- Path : C:\Users\lx\Downloads\EonVPNSetup.exe
+  Url  : https://eonvpn.com/download?gad_source=1&gclid=CjwKCAiAm-67BhBlEiwAEVftNh8o7Y-NrMw_cIQLL9GAfZqi8qhwRClUM2kxv_DGFAPGFYzxt88zmRoCoa8QAvD_BwE

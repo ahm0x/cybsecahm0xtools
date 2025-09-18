@@ -1,0 +1,851 @@
+
+------------------------------| Google Chrome (C:\Users\lx\AppData\Local\Google\Chrome\User Data) |------------------------------
+
+- Url    : .google.com
+  Name   : AEC
+  Path   : /
+  Cookie : None
+  Expire : 13396039928458093
+
+- Url    : .google.com
+  Name   : NID
+  Path   : /
+  Cookie : None
+  Expire : 13414674627113763
+
+- Url    : .google.com
+  Name   : SOCS
+  Path   : /
+  Cookie : None
+  Expire : 13414615929744729
+
+- Url    : .lens.google
+  Name   : _ga
+  Path   : /
+  Cookie : None
+  Expire : 13415047948215531
+
+- Url    : .lens.google
+  Name   : _ga_7EMDE5TXM2
+  Path   : /
+  Cookie : None
+  Expire : 13415047949454178
+
+- Url    : .lens.google
+  Name   : _gat_UA-117974635-1
+  Path   : /
+  Cookie : None
+  Expire : 13380487991000000
+
+- Url    : .lens.google
+  Name   : _gcl_au
+  Path   : /
+  Cookie : None
+  Expire : 13388263931000000
+
+- Url    : .lens.google
+  Name   : _gid
+  Path   : /
+  Cookie : None
+  Expire : 13380574348000000
+
+
+------------------------------| Microsoft Edge (C:\Users\lx\AppData\Local\Microsoft\Edge\User Data) |------------------------------
+
+- Url    : copilot.microsoft.com
+  Name   : MUID
+  Path   : /
+  Cookie : None
+  Expire : 13411925053351753
+
+- Url    : .bing.com
+  Name   : SRCHD
+  Path   : /
+  Cookie : None
+  Expire : 13411925053575032
+
+- Url    : .bing.com
+  Name   : SRCHUID
+  Path   : /
+  Cookie : None
+  Expire : 13411925053575045
+
+- Url    : .bing.com
+  Name   : _EDGE_V
+  Path   : /
+  Cookie : None
+  Expire : 13411925053575007
+
+- Url    : .bing.com
+  Name   : KievRPSSecAuth
+  Path   : /
+  Cookie : None
+  Expire : 13413520519612519
+
+- Url    : .bing.com
+  Name   : PPLState
+  Path   : /
+  Cookie : None
+  Expire : 13413520519612499
+
+- Url    : .bing.com
+  Name   : WLID
+  Path   : /
+  Cookie : None
+  Expire : 13381034120650209
+
+- Url    : es.pornhub.com
+  Name   : __l
+  Path   : /
+  Cookie : None
+  Expire : 13411381454798246
+
+- Url    : .pornhub.com
+  Name   : _ga
+  Path   : /
+  Cookie : None
+  Expire : 13414384543942989
+
+- Url    : .pornhub.com
+  Name   : accessAgeDisclaimerPH
+  Path   : /
+  Cookie : None
+  Expire : 13411360530000000
+
+- Url    : .pornhub.com
+  Name   : comp_detect-cookies
+  Path   : /
+  Cookie : None
+  Expire : 13382416528798222
+
+- Url    : .pornhub.com
+  Name   : ss
+  Path   : /
+  Cookie : None
+  Expire : 13411360528798209
+
+- Url    : .bing.com
+  Name   : MSPTC
+  Path   : /
+  Cookie : None
+  Expire : 13413520527554043
+
+- Url    : .bing.com
+  Name   : BCP
+  Path   : /
+  Cookie : None
+  Expire : 13411360556000000
+
+- Url    : .bing.com
+  Name   : MMCASM
+  Path   : /
+  Cookie : None
+  Expire : 13413520556952536
+
+- Url    : .pornhub.com
+  Name   : _ga_B39RFFWGYY
+  Path   : /
+  Cookie : None
+  Expire : 13414384553773883
+
+- Url    : testfamilysafety.bing.com
+  Name   : MUIDB
+  Path   : /
+  Cookie : None
+  Expire : 13413520590993970
+
+- Url    : .bing.com
+  Name   : _IDET
+  Path   : /images
+  Cookie : None
+  Expire : 13413520589000000
+
+- Url    : .giphy.com
+  Name   : _sharedID
+  Path   : /
+  Cookie : None
+  Expire : 13411360609000000
+
+- Url    : .giphy.com
+  Name   : _sharedID_cst
+  Path   : /
+  Cookie : None
+  Expire : 13411360609000000
+
+- Url    : .giphy.com
+  Name   : didomi_accept_cookie
+  Path   : /
+  Cookie : None
+  Expire : 13395632193000000
+
+- Url    : .giphy.com
+  Name   : didomi_token
+  Path   : /
+  Cookie : None
+  Expire : 13395632193000000
+
+- Url    : giphy.com
+  Name   : hb_insticator_uid
+  Path   : /
+  Cookie : None
+  Expire : 13382416621000000
+
+- Url    : .login.live.com
+  Name   : MSCC
+  Path   : /
+  Cookie : None
+  Expire : 13413520711091650
+
+- Url    : .epomaker.com
+  Name   : _landing_page
+  Path   : /
+  Cookie : None
+  Expire : 13381034319528256
+
+- Url    : .epomaker.com
+  Name   : _orig_referrer
+  Path   : /
+  Cookie : None
+  Expire : 13381034319528245
+
+- Url    : .epomaker.com
+  Name   : _privy_AE0CD0BCABCEE70C70F0B947
+  Path   : /
+  Cookie : None
+  Expire : 13411360722000000
+
+- Url    : .epomaker.com
+  Name   : _tracking_consent
+  Path   : /
+  Cookie : None
+  Expire : 13411360719528200
+
+- Url    : epomaker.com
+  Name   : spinGoodAppsCurrentShownPerMonth
+  Path   : /
+  Cookie : None
+  Expire : 13381984722000000
+
+- Url    : epomaker.com
+  Name   : spinGoodAppsStartDatePerMonth
+  Path   : /
+  Cookie : None
+  Expire : 13381984722000000
+
+- Url    : .epomaker.com
+  Name   : _fbp
+  Path   : /
+  Cookie : None
+  Expire : 13387600738000000
+
+- Url    : .epomaker.com
+  Name   : _ga
+  Path   : /
+  Cookie : None
+  Expire : 13414384738546843
+
+- Url    : .epomaker.com
+  Name   : _ga_20EHT1QDJR
+  Path   : /
+  Cookie : None
+  Expire : 13414384738442025
+
+- Url    : .epomaker.com
+  Name   : _ga_JPPFY8JLLM
+  Path   : /
+  Cookie : None
+  Expire : 13414384738546653
+
+- Url    : .epomaker.com
+  Name   : _gcl_au
+  Path   : /
+  Cookie : None
+  Expire : 13387600720000000
+
+- Url    : epomaker.com
+  Name   : _pin_unauth
+  Path   : /
+  Cookie : None
+  Expire : 13411360738000000
+
+- Url    : .epomaker.com
+  Name   : _tt_enable_cookie
+  Path   : /
+  Cookie : None
+  Expire : 13387600738000000
+
+- Url    : .epomaker.com
+  Name   : _ttp
+  Path   : /
+  Cookie : None
+  Expire : 13387600738000000
+
+- Url    : epomaker.com
+  Name   : localization
+  Path   : /
+  Cookie : None
+  Expire : 13411360737616071
+
+- Url    : .epomaker.com
+  Name   : _shopify_y
+  Path   : /
+  Cookie : None
+  Expire : 13411360751773421
+
+- Url    : epomaker.com
+  Name   : secure_customer_sig
+  Path   : /
+  Cookie : None
+  Expire : 13411360751773329
+
+- Url    : .adnxs.com
+  Name   : anj
+  Path   : /
+  Cookie : None
+  Expire : 13387600763078516
+
+- Url    : .amazon.es
+  Name   : i18n-prefs
+  Path   : /
+  Cookie : None
+  Expire : 13411360756552786
+
+- Url    : .amazon.es
+  Name   : session-id
+  Path   : /
+  Cookie : None
+  Expire : 13411360756552701
+
+- Url    : .amazon.es
+  Name   : session-id-time
+  Path   : /
+  Cookie : None
+  Expire : 13411360756552765
+
+- Url    : .amazon.es
+  Name   : session-token
+  Path   : /
+  Cookie : None
+  Expire : 13411360759887971
+
+- Url    : .amazon.es
+  Name   : ubid-acbes
+  Path   : /
+  Cookie : None
+  Expire : 13411360759680630
+
+- Url    : .rubiconproject.com
+  Name   : audit_p
+  Path   : /
+  Cookie : None
+  Expire : 13411360763171360
+
+- Url    : .rubiconproject.com
+  Name   : khaos_p
+  Path   : /
+  Cookie : None
+  Expire : 13411360763171537
+
+- Url    : .doubleclick.net
+  Name   : receive-cookie-deprecation
+  Path   : /
+  Cookie : None
+  Expire : 13395376761803727
+
+- Url    : .3lift.com
+  Name   : tluidp
+  Path   : /
+  Cookie : None
+  Expire : 13387600763408592
+
+- Url    : .msn.com
+  Name   : ANON
+  Path   : /
+  Cookie : None
+  Expire : 13395376777473750
+
+- Url    : .msn.com
+  Name   : APP_ANON
+  Path   : /
+  Cookie : None
+  Expire : 13395376775283654
+
+- Url    : .bing.com
+  Name   : MUID
+  Path   : /
+  Cookie : None
+  Expire : 13413520777338619
+
+- Url    : .msn.com
+  Name   : MUID
+  Path   : /
+  Cookie : None
+  Expire : 13413520777473631
+
+- Url    : api.msn.com
+  Name   : MUIDB
+  Path   : /
+  Cookie : None
+  Expire : 13413520775283718
+
+- Url    : assets.msn.com
+  Name   : MUIDB
+  Path   : /
+  Cookie : None
+  Expire : 13413520776225219
+
+- Url    : ntp.msn.com
+  Name   : MUIDB
+  Path   : /
+  Cookie : None
+  Expire : 13413520776081474
+
+- Url    : accounts.google.com
+  Name   : OTZ
+  Path   : /
+  Cookie : None
+  Expire : 13382416782000000
+
+- Url    : .c.bing.com
+  Name   : SRA_B
+  Path   : /
+  Cookie : None
+  Expire : 13395376777338836
+
+- Url    : .c.bing.com
+  Name   : SRA_M
+  Path   : /
+  Cookie : None
+  Expire : 13395376777338861
+
+- Url    : .c.bing.com
+  Name   : SRM_B
+  Path   : /
+  Cookie : None
+  Expire : 13413520777338789
+
+- Url    : .c.bing.com
+  Name   : SRM_M
+  Path   : /
+  Cookie : None
+  Expire : 13413520777338814
+
+- Url    : .c.msn.com
+  Name   : SRM_M
+  Path   : /
+  Cookie : None
+  Expire : 13413520777473698
+
+- Url    : .msn.com
+  Name   : _EDGE_V
+  Path   : /
+  Cookie : None
+  Expire : 13413520776081496
+
+- Url    : accounts.google.com
+  Name   : __Host-GAPS
+  Path   : /
+  Cookie : None
+  Expire : 13414384781394913
+
+- Url    : .msn.com
+  Name   : aace
+  Path   : /
+  Cookie : None
+  Expire : 13395376775283682
+
+- Url    : .amazon-adsystem.com
+  Name   : ad-id
+  Path   : /
+  Cookie : None
+  Expire : 13395808772524913
+
+- Url    : .amazon-adsystem.com
+  Name   : ad-privacy
+  Path   : /
+  Cookie : None
+  Expire : 13414384772525005
+
+- Url    : .msn.com
+  Name   : els
+  Path   : /
+  Cookie : None
+  Expire : 13395376775283704
+
+- Url    : .mediarithmics.com
+  Name   : mics_lts
+  Path   : /
+  Cookie : None
+  Expire : 13411360772884161
+
+- Url    : .mediarithmics.com
+  Name   : mics_uaid
+  Path   : /
+  Cookie : None
+  Expire : 13411360772884127
+
+- Url    : .mediarithmics.com
+  Name   : mics_vid
+  Path   : /
+  Cookie : None
+  Expire : 13411360772884052
+
+- Url    : api.msn.com
+  Name   : sptmarket
+  Path   : /
+  Cookie : None
+  Expire : 13414384775283624
+
+- Url    : .ntp.msn.com
+  Name   : sptmarket_restored
+  Path   : /
+  Cookie : None
+  Expire : 13411360776000000
+
+- Url    : .adnxs.com
+  Name   : uuid2
+  Path   : /
+  Cookie : None
+  Expire : 13387600772845997
+
+- Url    : .adnxs.com
+  Name   : XANDR_PANID
+  Path   : /
+  Cookie : None
+  Expire : 13387600772845791
+
+- Url    : .adnxs.com
+  Name   : receive-cookie-deprecation
+  Path   : /
+  Cookie : None
+  Expire : 13414384772845935
+
+- Url    : .bing.com
+  Name   : MSPTC
+  Path   : /
+  Cookie : None
+  Expire : 13413520776922021
+
+- Url    : ntp.msn.com
+  Name   : MicrosoftApplicationsTelemetryDeviceId
+  Path   : /
+  Cookie : None
+  Expire : 13411360794125017
+
+- Url    : .msn.com
+  Name   : OptanonConsent
+  Path   : /
+  Cookie : None
+  Expire : 13411360793000000
+
+- Url    : .msn.com
+  Name   : msnup
+  Path   : /
+  Cookie : None
+  Expire : 13387600793896137
+
+- Url    : .msn.com
+  Name   : pglt-edgeChromium-ntp
+  Path   : /edge
+  Cookie : None
+  Expire : 13395549593000000
+
+- Url    : ntp.msn.com
+  Name   : sptmarket
+  Path   : /
+  Cookie : None
+  Expire : 13414384793053855
+
+- Url    : .google.com
+  Name   : __Secure-ENID
+  Path   : /
+  Cookie : None
+  Expire : 13414011489577765
+
+- Url    : .google.es
+  Name   : _ga
+  Path   : /chrome
+  Cookie : None
+  Expire : 13414384831263152
+
+- Url    : .google.es
+  Name   : _ga
+  Path   : /chrome/
+  Cookie : None
+  Expire : 13414384831333868
+
+- Url    : .google.es
+  Name   : _ga_B7W0ZKZYDK
+  Path   : /chrome/
+  Cookie : None
+  Expire : 13414384834649365
+
+- Url    : www.amazon.es
+  Name   : csm-hit
+  Path   : /
+  Cookie : None
+  Expire : 13410064837000000
+
+- Url    : .cheatengine.org
+  Name   : FCCDCF
+  Path   : /
+  Cookie : None
+  Expire : 13413835396000000
+
+- Url    : .cheatengine.org
+  Name   : FCNEC
+  Path   : /
+  Cookie : None
+  Expire : 13411675398000000
+
+- Url    : .microsoft.com
+  Name   : MC1
+  Path   : /
+  Cookie : None
+  Expire : 13411675400892513
+
+- Url    : .microsoft.com
+  Name   : MUID
+  Path   : /
+  Cookie : None
+  Expire : 13413835400892690
+
+- Url    : .cheatengine.org
+  Name   : __eoi
+  Path   : /
+  Cookie : None
+  Expire : 13395691400000000
+
+- Url    : .cheatengine.org
+  Name   : __gads
+  Path   : /
+  Cookie : None
+  Expire : 13413835400000000
+
+- Url    : .cheatengine.org
+  Name   : __gpi
+  Path   : /
+  Cookie : None
+  Expire : 13413835400000000
+
+- Url    : .cheatengine.org
+  Name   : _ga
+  Path   : /
+  Cookie : None
+  Expire : 13414699395214110
+
+- Url    : .cheatengine.org
+  Name   : _ga_L29JZNGRNW
+  Path   : /
+  Cookie : None
+  Expire : 13414699395403445
+
+- Url    : .cheatengine.org
+  Name   : _uetvid
+  Path   : /
+  Cookie : None
+  Expire : 13413835397000000
+
+- Url    : .bing.com
+  Name   : MSPTC
+  Path   : /
+  Cookie : None
+  Expire : 13413835395358846
+
+- Url    : .doubleclick.net
+  Name   : receive-cookie-deprecation
+  Path   : /
+  Cookie : None
+  Expire : 13395691398704535
+
+- Url    : .jdownloader.org
+  Name   : FCCDCF
+  Path   : /
+  Cookie : None
+  Expire : 13414184193000000
+
+- Url    : .bing.com
+  Name   : GC
+  Path   : /
+  Cookie : None
+  Expire : 13380574591974595
+
+- Url    : .bing.com
+  Name   : SRCHUSR
+  Path   : /
+  Cookie : None
+  Expire : 13414184191000000
+
+- Url    : .bing.com
+  Name   : SnrOvr
+  Path   : /
+  Cookie : None
+  Expire : 13412024191974695
+
+- Url    : .bing.com
+  Name   : USRLOC
+  Path   : /
+  Cookie : None
+  Expire : 13413520518198013
+
+- Url    : .msn.com
+  Name   : USRLOC
+  Path   : /
+  Cookie : None
+  Expire : 13414384775081447
+
+- Url    : .jdownloader.org
+  Name   : __eoi
+  Path   : /
+  Cookie : None
+  Expire : 13396040193000000
+
+- Url    : .jdownloader.org
+  Name   : __gads
+  Path   : /
+  Cookie : None
+  Expire : 13414184193000000
+
+- Url    : .jdownloader.org
+  Name   : __gpi
+  Path   : /
+  Cookie : None
+  Expire : 13414184193000000
+
+- Url    : login.microsoftonline.com
+  Name   : buid
+  Path   : /
+  Cookie : None
+  Expire : 13383080191969182
+
+- Url    : login.microsoftonline.com
+  Name   : fpc
+  Path   : /
+  Cookie : None
+  Expire : 13383080191969239
+
+- Url    : jdownloader.org
+  Name   : geo
+  Path   : /
+  Cookie : None
+  Expire : 13396040192421832
+
+- Url    : .bing.com
+  Name   : WLS
+  Path   : /
+  Cookie : None
+  Expire : 0
+
+- Url    : .bing.com
+  Name   : _EDGE_S
+  Path   : /
+  Cookie : None
+  Expire : 0
+
+- Url    : copilot.microsoft.com
+  Name   : _EDGE_S
+  Path   : /
+  Cookie : None
+  Expire : 0
+
+- Url    : .bing.com
+  Name   : _RwBf
+  Path   : /
+  Cookie : None
+  Expire : 13414184204497178
+
+- Url    : .bing.com
+  Name   : _SS
+  Path   : /
+  Cookie : None
+  Expire : 0
+
+- Url    : .microsoft.com
+  Name   : ak_bmsc
+  Path   : /
+  Cookie : None
+  Expire : 13380519165220031
+
+- Url    : .bing.com
+  Name   : ANON
+  Path   : /
+  Cookie : None
+  Expire : 13414211565369722
+
+- Url    : copilot.microsoft.com
+  Name   : ANON
+  Path   : /
+  Cookie : None
+  Expire : 13414211565315798
+
+- Url    : copilot.microsoft.com
+  Name   : MUIDB
+  Path   : /
+  Cookie : None
+  Expire : 13414211565315596
+
+- Url    : www.bing.com
+  Name   : MUIDB
+  Path   : /
+  Cookie : None
+  Expire : 13414211565369527
+
+- Url    : copilot.microsoft.com
+  Name   : SRCHD
+  Path   : /
+  Cookie : None
+  Expire : 13414211565315675
+
+- Url    : .bing.com
+  Name   : SRCHHPGUSR
+  Path   : /
+  Cookie : None
+  Expire : 13414211565369636
+
+- Url    : copilot.microsoft.com
+  Name   : SRCHUID
+  Path   : /
+  Cookie : None
+  Expire : 13414211565315700
+
+- Url    : copilot.microsoft.com
+  Name   : SRCHUSR
+  Path   : /
+  Cookie : None
+  Expire : 13414211565315727
+
+- Url    : copilot.microsoft.com
+  Name   : WLS
+  Path   : /
+  Cookie : None
+  Expire : 0
+
+- Url    : copilot.microsoft.com
+  Name   : _SS
+  Path   : /
+  Cookie : None
+  Expire : 0
+
+- Url    : .bing.com
+  Name   : _U
+  Path   : /
+  Cookie : None
+  Expire : 13381725165369678
+
+- Url    : .microsoft.com
+  Name   : bm_sv
+  Path   : /
+  Cookie : None
+  Expire : 13380522765315858
+
+- Url    : .msn.com
+  Name   : elt
+  Path   : /
+  Cookie : None
+  Expire : 13381120365197262
+
+- Url    : .msn.com
+  Name   : lt
+  Path   : /
+  Cookie : None
+  Expire : 13383107565196806

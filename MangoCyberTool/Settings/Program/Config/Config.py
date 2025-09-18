@@ -1,0 +1,13 @@
+
+name_tool       =  "MangoCyberTool"
+type_tool       =  "Multi-Tools"
+version_tool    =  "1.0"
+coding_tool     =  "Python 3.11.9"
+language_tool   =  "EN"
+creator         =  "BashMagno"
+platform        =  "Windows 10/11 & Linux"
+discord_server  =  "https://discord.gg/QVaSEnCV"
+website         =  "https://github.com/BashMagno"
+github_tool     =  "https://github.com/BashMagno"
+telegram        =  "https://github.com/BashMagno"
+copyright       =  "Copyright (c) MangoCyberTools 'GPL-3.0 license'"
