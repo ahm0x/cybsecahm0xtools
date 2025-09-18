@@ -9,6 +9,9 @@ try:
     import datetime
     import sys
     import requests
+    
+    # Initialize colorama for cross-platform colored output
+    colorama.init()
 except Exception as e:
     import os
     print(f"[x] | Error Module (Restart Setup.bat): {e}")

@@ -32,10 +32,10 @@ def show_popup():
 
         messagebox.showinfo("Aviso", message)
 
-         with open(file_path, "w") as file:
+        with open(file_path, "w") as file:
             file.write("1")
-    else:
-      print("El mensaje ya ha sido mostrado anteriormente.")
+   else:
+       print("El mensaje ya ha sido mostrado anteriormente.")
 
 if __name__ == "__main__":
    show_popup()
