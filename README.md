@@ -1,0 +1,3 @@
+I am not responsible for any damage caused by this tool;
+it has only been developed for educational and learning purposes.
+By using this, you take full responsibility for the use of this application.
